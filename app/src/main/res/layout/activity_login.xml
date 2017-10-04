@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_layout"
+    tools:context="com.rosinante24.firebaseauthentication.LoginActivity">
+
+    <ImageView
+        android:layout_width="@dimen/logo_w_h"
+        android:layout_height="@dimen/logo_w_h"
+        android:layout_marginBottom="@dimen/margin_edit_text"
+        android:src="@drawable/firebaseicon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_activity_login"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_title_login" />
+
+    <EditText
+        android:id="@+id/edit_text_email_login"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_edit_text"
+        android:layout_marginTop="@dimen/padding_layout"
+        android:background="@drawable/backgroundedittext"
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:padding="@dimen/margin_edit_text"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/edit_text_password"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_edit_text"
+        android:layout_marginTop="@dimen/margin_edit_text"
+        android:background="@drawable/backgroundedittext"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:padding="@dimen/margin_edit_text"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/button_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_edit_text"
+        android:layout_marginTop="@dimen/margin_top_button"
+        android:background="@drawable/groundbutton"
+        android:text="@string/common_signin_button_text"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/text_link_to_forgot_password_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_top_button"
+        android:gravity="center"
+        android:text="@string/btn_forgot_password"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/text_link_to_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/btn_link_to_register"
+        android:textColor="@color/white" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+
+</LinearLayout>
