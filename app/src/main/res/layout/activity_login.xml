@@ -56,6 +56,12 @@
         android:text="@string/common_signin_button_text"
         android:textColor="@color/white" />
 
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/facebook_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_edit_text"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_top_button"/>
     <TextView
         android:id="@+id/text_link_to_forgot_password_login"
         android:layout_width="match_parent"

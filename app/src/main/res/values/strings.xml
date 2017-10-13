@@ -30,4 +30,7 @@
     <string name="lbl_forgot_password">Forgot password?</string>
     <string name="hint_confirm_password">Confirm password</string>
     <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="facebook_app_id">529972074007133</string>
+    <string name="fb_login_protocol_scheme">fb529972074007133</string>
+
 </resources>
