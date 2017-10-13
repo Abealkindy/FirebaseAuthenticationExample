@@ -56,12 +56,26 @@
         android:text="@string/common_signin_button_text"
         android:textColor="@color/white" />
 
-    <com.facebook.login.widget.LoginButton
-        android:id="@+id/facebook_login_button"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/height_edit_text"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/margin_top_button"/>
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_button"
+        android:orientation="horizontal">
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/facebook_login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_edit_text" />
+
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/google_login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_edit_text" />
+    </LinearLayout>
+
     <TextView
         android:id="@+id/text_link_to_forgot_password_login"
         android:layout_width="match_parent"

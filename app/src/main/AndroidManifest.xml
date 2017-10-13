@@ -50,7 +50,8 @@
             android:name=".ForgotPasswordActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".ProfileActivity" />
-        <activity android:name=".FacebookProfileactivity"></activity>
+        <activity android:name=".FacebookProfileactivity" />
+        <activity android:name=".GoogleProfileActivity"></activity>
     </application>
 
 </manifest>
