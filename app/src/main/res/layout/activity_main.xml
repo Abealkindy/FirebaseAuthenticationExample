@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/jarak20dp"
+    tools:context="com.rosinante24.firebaseauthentication.MainActivity">
+
+    <ImageView
+        android:layout_width="@dimen/logo_w_h"
+        android:layout_height="@dimen/logo_w_h"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/jarak10dp"
+        android:src="@drawable/firebaseicon" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/jarak10dp"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:text="@string/title"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/textsize3" />
+
+    <Button
+        android:id="@+id/facebook_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/jarak5dp"
+        android:background="@drawable/groundbutton"
+        android:text="@string/button1"
+        android:textColor="@android:color/white"
+        android:textIsSelectable="true" />
+
+    <Button
+        android:id="@+id/google_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/jarak5dp"
+        android:background="@drawable/groundbutton"
+        android:text="@string/button2"
+        android:textColor="@android:color/white"
+        android:textIsSelectable="true" />
+
+    <Button
+        android:id="@+id/email_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/jarak5dp"
+        android:background="@drawable/groundbutton"
+        android:text="@string/button3"
+        android:textColor="@android:color/white"
+        android:textIsSelectable="true" />
+
+    <Button
+        android:id="@+id/anonymous_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/jarak5dp"
+        android:background="@drawable/groundbutton"
+        android:text="@string/button4"
+        android:textColor="@android:color/white"
+        android:textIsSelectable="true" />
+</LinearLayout>

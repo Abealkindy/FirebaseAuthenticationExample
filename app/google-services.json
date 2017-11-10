@@ -40,6 +40,13 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
+              "client_id": "902849561740-3ihjbasigufnh5kpq9e2mk4q5227nehf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "rosinante24.com.flutterchatapp"
+              }
+            },
+            {
               "client_id": "902849561740-2vn3gc03sd6efc2h56eml468kh35enu7.apps.googleusercontent.com",
               "client_type": 3
             }
@@ -84,6 +91,13 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
+              "client_id": "902849561740-3ihjbasigufnh5kpq9e2mk4q5227nehf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "rosinante24.com.flutterchatapp"
+              }
+            },
+            {
               "client_id": "902849561740-2vn3gc03sd6efc2h56eml468kh35enu7.apps.googleusercontent.com",
               "client_type": 3
             }
@@ -127,6 +141,166 @@
         "appinvite_service": {
           "status": 2,
           "other_platform_oauth_client": [
+            {
+              "client_id": "902849561740-3ihjbasigufnh5kpq9e2mk4q5227nehf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "rosinante24.com.flutterchatapp"
+              }
+            },
+            {
+              "client_id": "902849561740-2vn3gc03sd6efc2h56eml468kh35enu7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902849561740:android:61ae93d1477ff36e",
+        "android_client_info": {
+          "package_name": "com.rosinante24.firebaserealtimedatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902849561740-kq4ll1admti5gji5ssq6cpc8onvp8uv3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rosinante24.firebaserealtimedatabase",
+            "certificate_hash": "6f6ccc6e12a2f649aa967e933714fa9a65229167"
+          }
+        },
+        {
+          "client_id": "902849561740-2vn3gc03sd6efc2h56eml468kh35enu7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQjObiEUEGVZdTxYI0JEaxNyg5o7Vo4Yg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902849561740-3ihjbasigufnh5kpq9e2mk4q5227nehf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "rosinante24.com.flutterchatapp"
+              }
+            },
+            {
+              "client_id": "902849561740-2vn3gc03sd6efc2h56eml468kh35enu7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902849561740:android:2def6001dae52b73",
+        "android_client_info": {
+          "package_name": "com.rosinante24.firebasestorage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902849561740-mpvigpqmcujsacgocdn29t1j0pcevhqu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rosinante24.firebasestorage",
+            "certificate_hash": "6f6ccc6e12a2f649aa967e933714fa9a65229167"
+          }
+        },
+        {
+          "client_id": "902849561740-2vn3gc03sd6efc2h56eml468kh35enu7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQjObiEUEGVZdTxYI0JEaxNyg5o7Vo4Yg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902849561740-3ihjbasigufnh5kpq9e2mk4q5227nehf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "rosinante24.com.flutterchatapp"
+              }
+            },
+            {
+              "client_id": "902849561740-2vn3gc03sd6efc2h56eml468kh35enu7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902849561740:android:0e4cf3c38e88c733",
+        "android_client_info": {
+          "package_name": "com.rosinante24.edittextlimitconfig"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902849561740-bs8d7uvdsegg9g2ag94dfs2ka4fh7t6u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rosinante24.edittextlimitconfig",
+            "certificate_hash": "6f6ccc6e12a2f649aa967e933714fa9a65229167"
+          }
+        },
+        {
+          "client_id": "902849561740-2vn3gc03sd6efc2h56eml468kh35enu7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQjObiEUEGVZdTxYI0JEaxNyg5o7Vo4Yg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902849561740-3ihjbasigufnh5kpq9e2mk4q5227nehf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "rosinante24.com.flutterchatapp"
+              }
+            },
             {
               "client_id": "902849561740-2vn3gc03sd6efc2h56eml468kh35enu7.apps.googleusercontent.com",
               "client_type": 3

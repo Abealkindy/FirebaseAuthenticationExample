@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/jarak20dp"
+    tools:context="com.rosinante24.firebaseauthentication.GoogleLoginActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="@dimen/logo_w_h"
+        android:layout_height="@dimen/logo_w_h"
+        android:src="@drawable/firebaseicon" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:text="@string/welcome4"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize1" />
+
+    <TextView
+        android:id="@+id/text_name_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize2"
+        tools:text="Otong" />
+
+    <LinearLayout
+        android:id="@+id/sign_out_and_disconnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/jarak10dp"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <Button
+            android:id="@+id/sign_out_button"
+            style="?android:attr/button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/jarak5dp"
+            android:layout_weight="1"
+            android:background="@drawable/groundbutton"
+            android:text="@string/btn_sign_out"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/disconnect_button"
+            style="?android:attr/button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/jarak5dp"
+            android:layout_weight="1"
+            android:background="@drawable/groundbutton"
+            android:text="@string/disconnect"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/google_sign_in_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/jarak45dp"
+        android:layout_marginTop="@dimen/jarak10dp"
+        android:visibility="visible" />
+</LinearLayout>
